@@ -1,0 +1,68 @@
+body,p,dl,dd,h1,h2,h3,h4,h5,h6,pre,form,fieldset,legend{margin:0;}
+ul,ol,fieldset{margin:0;padding:0;}
+table{font-size:inherit;}
+fieldset,img{border:none;}
+ul,ol,li{list-style:none;}
+html{overflow:auto\9;}
+body{font-size:12px;}
+
+body,input,textarea,select,button{font-family:"lucida Grande",Verdana,"Microsoft YaHei";}
+input,textarea,select,button{font-size:inherit;}a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+.header {
+    height: 80px;
+    overflow: hidden;
+    zoom: 1;
+    border-bottom: 1px solid #d6dfea;
+    background: #7D4243;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.header_link {
+    overflow: hidden;
+    margin-top: 16px;
+    padding-right: 17px;
+    line-height: 30px;
+    text-align: right;
+    color: #b6b6b6;
+    font-size: 20px;
+
+}
+#denglu-form{
+	text-align:center;
+	position: relative;
+	top: 130px;
+	width: 400px;
+	margin:0 auto;
+}
+.form-item {
+    position: relative;
+    border: solid 1px #ddd;
+    height: 52px;
+    adding-top: 20px;
+    line-height: 23px;
+}
+
+
+.input-tip {
+    color: red;
+    height: 27px;
+    font-size: 12px;
+    padding-top: 5px;
+    line-height: 23px;
+}
+.field{
+	width: 350px;
+	height: 20px;
+}
+.btn-register {
+    width: 80%;
+    height: 54px;
+    color: #FFFFFF;
+    background: #7D4243;
+    border: 0;
+    font-size: 16px;
+    font-family: "Microsoft YaHei","Hiragino Sans GB";
+    cursor: pointer;
+}

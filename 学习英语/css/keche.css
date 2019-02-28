@@ -1,0 +1,159 @@
+.header {
+    height: 33px;
+    background : #7D4243;
+    
+}
+
+#lunbobox {
+	width:500px;
+	height:300px;
+	position:relative;
+}
+.lunbo {
+	width:500px;
+	height:300px;
+}
+.lunbo img {
+	width:500px;
+	height:300px;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+#lunbobox ul {
+	width:285px;
+	position:absolute;
+	bottom:10px;
+	right:0px;
+	z-index:5;
+}
+#lunbobox ul li {
+	cursor:pointer;
+	width:10px;
+	height:4px;
+	border:1px solid #cccccc;
+	float:left;
+	list-style:none;
+	background:#cccccc;
+	text-align:center;
+	margin:0px 5px 0px 0px;
+}
+#toleft {
+	display:none;
+	width:30px;
+	height:100px;
+	font-size:40px;
+	line-height:100px;
+	text-align:center;
+	color:#f4f4f4;
+	/*background:#cccccc;
+	*/
+    /*background:url("../images/toleft.jpg")no-repeat center;
+	*/
+    position:absolute;
+	top:90px;
+	left:12px;
+	cursor:pointer;
+	z-index:99;
+	opacity:0.4;
+}
+#toright {
+	display:none;
+	width:30px;
+	height:100px;
+	font-size:40px;
+	line-height:100px;
+	text-align:center;
+	color:#f4f4f4;
+	/*background:#cccccc;
+	*/
+    position:absolute;
+	top:90px;
+	right:0px;
+	cursor:pointer;
+	z-index:99;
+	opacity:0.4;
+}
+.kuang{
+	width: 100%;
+    height: 300px;
+    position: relative;
+   
+}
+.newslist {
+    width: 449px;
+    float: left;
+    border-bottom: 6px solid #ededed;
+    border-right: 1px solid #d9d9d9;
+    padding-bottom: 5px;
+}
+#main_l{
+	width:50%;
+	float:left;
+	height: 300px;
+	
+}
+.cet_banner01{
+	text-indent: 70px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.cet_banner02{
+	text-indent: 70px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.cet_banner05{
+	text-indent: 70px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.cet_banner03{
+	text-indent: 70px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.f20 {
+    font-size: 20px;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei";
+}
+#lanrenzhijia {
+    width: 100%;
+    height: 419px;
+    float: left;
+    position: relative;
+}
+#slides {
+    display: block;
+    width: 100%;
+    height: 419px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+#slides li {
+    display: block;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}

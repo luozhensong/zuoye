@@ -1,0 +1,15 @@
+.layout {
+    width: 1240px;
+    margin: 50px auto;
+    padding-bottom: 45px;
+    background: url(../img/bgB.png) repeat-y left #fff;
+}
+.layout .left {
+    width: 910px;
+}
+.layout .right {
+    width: 300px;
+}
+.right, .r {
+    float: right;
+}

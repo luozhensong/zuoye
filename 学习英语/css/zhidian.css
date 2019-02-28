@@ -1,0 +1,58 @@
+body,p,dl,dd,h1,h2,h3,h4,h5,h6,pre,form,fieldset,legend{margin:0;}
+ul,ol,fieldset{margin:0;padding:0;}
+table{font-size:inherit;}
+fieldset,img{border:none;}
+ul,ol,li{list-style:none;}
+html{overflow:auto\9;}
+body{font-size:12px;}
+
+body,input,textarea,select,button{font-family:"lucida Grande",Verdana,"Microsoft YaHei";}
+input,textarea,select,button{font-size:inherit;}a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+.header {
+    height: 80px;
+    overflow: hidden;
+    zoom: 1;
+    border-bottom: 1px solid #d6dfea;
+    background: #7D4243;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+.btn-register {
+    width: 24%;
+    height: 54px;
+    color: #FFFFFF;
+    background: #7D4243;
+    border: 0;
+    font-size: 16px;
+    font-family: "Microsoft YaHei","Hiragino Sans GB";
+    cursor: pointer;
+}
+.input__target {
+    display: inline-block;
+    width: 71%;
+    font-size: 14px;
+    vertical-align: top;
+}.xx__input__bg {
+    background: #f2f2f2;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 6px;
+    margin-right: 10px;
+    padding: 18px 50px 18px 18px;
+    /*border: 1px solid transparent;*/
+}
+
+.input__target__text {
+    font-family: ArialMT,"Microsoft YaHei",Arial,sans-serif,Helvetica,STHeiti;
+    min-height: 156px;
+    margin: 18px 18px;
+    padding: 0;
+    border: 0;
+    background: #f2f2f2;
+    font-size: 24px;
+    color: #333;
+    line-height: 30px;
+    word-break: break-word;
+}
